@@ -6,9 +6,7 @@ div#first-container {
     padding-left:10px;
     padding-right: 10px;
     padding-bottom:14px;
-    border: 5px solid rgb(0, 0, 0);
-    margin-bottom: 25px;
-    
+    border: 5px solid rgb(0, 0, 0);    
 }
 div#first-container > * {
     display: inline-block;
@@ -35,6 +33,9 @@ div#circle {
     background-color: rgb(135, 206, 235);
     border-radius: 50%;
 }
+div#first-container, div#second-container {
+    margin-bottom: 25px;
+}
 
 
 /* second container styles */
@@ -48,4 +49,11 @@ div#second-container div#fancy-box {
     width: 100%;
     height: 100%;
     box-shadow: 12px 11px 4px rgb(64,64,64);
+}
+div#fancy-letter {
+    width: 600px;
+    height: 320px;
+    border: 1px solid rgb(204,204,204);
+    margin-left: auto;
+    margin-right: auto;
 }

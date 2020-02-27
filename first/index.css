@@ -1,0 +1,28 @@
+/* reset */
+body {
+    margin:0;
+}
+
+
+body div.header {
+    height:170px;
+    height: 10vh;
+    max-height: 170px;
+    background-color: rgb(68,68,68);
+}
+body div.content {
+    /* if you want fluid content */
+    padding-left:16%;
+    padding-right: 16%;
+    background-color: rgb(216,216,216);
+    height: 90vh;
+}
+body div.content div.content-body {
+    background-color: rgb(239, 239, 239);
+    height: 690px;
+    height: 90%;
+}
+body div.content div.content-footer {
+    height:10%;
+    background-color: rgb(34, 34, 34);
+}

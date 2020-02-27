@@ -1,7 +1,7 @@
 :root {
     --body-padding: 1vmin;
     --body-height:100vh;
-    --container-margin:5px;
+    --container-margin:10px;
 }
 body {
     margin:0;
@@ -15,7 +15,7 @@ body {
 
 .container {
     height: 32.5797%;
-    height: calc((var(--body-height) / 2.999) - (var(--body-padding)) - (var(--container-margin) * 1));
+    height: calc((var(--body-height) / 2.999) - (var(--body-padding)) - (var(--container-margin) * 1) - 10px);
     margin-bottom: 1px;
     margin-bottom: var(--container-margin);
     margin-top:var(--container-margin);
@@ -24,6 +24,13 @@ body {
 /* body:last-child {
     margin-bottom: 0;
 } */
-#container1 {
+#first-container {
     border: 5px solid black;
+    
+}
+#second-container {
+    border: 5px dotted black;
+}
+#third-container {
+
 }

@@ -1,0 +1,18 @@
+body {
+    margin:0;
+    padding:1%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 33.33%;
+    margin-bottom: 1%;
+}
+
+body:last-child {
+    height: 33.67%;
+}
+#container1 {
+    border: 5px solid black;
+}
